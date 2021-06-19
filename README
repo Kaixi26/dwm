@@ -1,0 +1,20 @@
+dwm - dynamic window manager
+============================
+dwm is an extremely fast, small, and dynamic window manager for X.
+
+
+## My Patches
+
+This is in the order that I patched everything:
+
+- [fullgaps](https://dwm.suckless.org/patches/fullgaps/)
+- [fullgaps](https://dwm.suckless.org/patches/systray/)
+
+
+Requirements
+------------
+In order to build dwm you need the Xlib header files.
+
+Installation
+------------
+You can figure it out.
