@@ -7,9 +7,12 @@ dwm is an extremely fast, small, and dynamic window manager for X.
 
 This is in the order that I patched everything:
 
-- [fullgaps](https://dwm.suckless.org/patches/fullgaps/)
+- [fullgaps](https://dwm.suckless.org/patches/fullgaps/) (slightly modified)
 - [systray](https://dwm.suckless.org/patches/systray/)
 - [rotatestack](https://dwm.suckless.org/patches/rotatestack/)
+- [cyclelayouts](https://dwm.suckless.org/patches/cyclelayouts/)
+- [alwayscenter](https://dwm.suckless.org/patches/alwayscenter/)
+- [attachabove](https://dwm.suckless.org/patches/attachabove/)
 
 
 Requirements
