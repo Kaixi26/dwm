@@ -13,7 +13,7 @@ This is in the order that I patched everything:
 - [cyclelayouts](https://dwm.suckless.org/patches/cyclelayouts/)
 - [alwayscenter](https://dwm.suckless.org/patches/alwayscenter/)
 - [attachabove](https://dwm.suckless.org/patches/attachabove/)
-
+- [noborder](https://dwm.suckless.org/patches/noborder/)
 
 Requirements
 ------------
