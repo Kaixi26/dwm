@@ -86,8 +86,6 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,				XK_space,  cyclelayout,    {.i = +1 } },
 	{ MODKEY,						XK_space,  cyclelayout,    {.i = -1 } },
 	{ MODKEY,                       XK_t,      togglefloating, {0} },
-	{ MODKEY,                       XK_0,      view,           {.ui = ~0 } },
-	{ MODKEY|ShiftMask,             XK_0,      tag,            {.ui = ~0 } },
 	{ MODKEY|ControlMask,           XK_j,      focusmon,       {.i = -1 } },
 	{ MODKEY|ControlMask,           XK_k,      focusmon,       {.i = +1 } },
 	{ MODKEY,                       XK_minus,  setgaps,        {.i = -1 } },
@@ -98,13 +96,14 @@ static Key keys[] = {
 	TAGKEYS(                        XK_3,                      2)
 	TAGKEYS(                        XK_4,                      3)
 	TAGKEYS(                        XK_5,                      4)
-	TAGKEYS(                        XK_6,                      5)
-	TAGKEYS(                        XK_7,                      6)
-	TAGKEYS(                        XK_8,                      7)
-	TAGKEYS(                        XK_9,                      8)
-	{ MODKEY|ControlMask,			XK_q,      quit,           {0} },
-
-//	{ MODKEY,                       XK_space,  setlayout,      {0} },
+	{ MODKEY,                       XK_6,      view,           {.ui = ~0 } },
+	{ MODKEY|ShiftMask,             XK_6,      tag,            {.ui = ~0 } },
+	TAGKEYS(                        XK_7,                      5)
+	TAGKEYS(                        XK_8,                      6)
+	TAGKEYS(                        XK_9,                      7)
+	TAGKEYS(                        XK_0,                      8)
+	//{ MODKEY|ControlMask,			XK_q,      quit,           {0} },
+    //{ MODKEY,                       XK_space,  setlayout,      {0} },
 	//{ MODKEY|ShiftMask,             XK_comma,  tagmon,         {.i = -1 } },
 	//{ MODKEY|ShiftMask,             XK_period, tagmon,         {.i = +1 } },
 };
