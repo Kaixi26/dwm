@@ -28,6 +28,9 @@
       installPhase = ''
         mkdir -p "$out"
         make install DESTDIR=$out
+        mv $out/usr/local/bin $out/bin
+        mv $out/usr/local/share $out/share
+        rm -rf $out/usr
       '';
     };
 
