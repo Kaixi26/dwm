@@ -1,0 +1,8 @@
+.cache
+.direnv
+result
+.envrc
+*.diff
+*.orig
+*.o
+dwm
