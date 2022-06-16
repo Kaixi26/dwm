@@ -4,5 +4,7 @@ result
 .envrc
 *.diff
 *.orig
+*.rej
 *.o
+config.h
 dwm
