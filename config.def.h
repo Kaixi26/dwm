@@ -25,7 +25,7 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { "●", "●", "●", "●", "●", "●", "●", "●", "●" };
+static const char *tags[] = { "●", "●", "●", "●", "●", "●", "●", "●", "●", "●" };
 
 static const Rule rules[] = {
 	/* xprop(1):
@@ -88,8 +88,6 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,				XK_space,  cyclelayout,    {.i = +1 } },
 	{ MODKEY,						XK_space,  cyclelayout,    {.i = -1 } },
 	{ MODKEY,                       XK_t,      togglefloating, {0} },
-	{ MODKEY,                       XK_0,      view,           {.ui = ~0 } },
-	{ MODKEY|ShiftMask,             XK_0,      tag,            {.ui = ~0 } },
 	{ MODKEY|ControlMask,           XK_j,      focusmon,       {.i = -1 } },
 	{ MODKEY|ControlMask,           XK_k,      focusmon,       {.i = +1 } },
 	{ MODKEY,                       XK_minus,  setgaps,        {.i = -1 } },
@@ -104,6 +102,7 @@ static Key keys[] = {
 	TAGKEYS(                        XK_7,                      6)
 	TAGKEYS(                        XK_8,                      7)
 	TAGKEYS(                        XK_9,                      8)
+	TAGKEYS(                        XK_0,                      9)
 	{ MODKEY|ControlMask,			XK_q,      quit,           {0} },
 
 //	{ MODKEY,                       XK_space,  setlayout,      {0} },
